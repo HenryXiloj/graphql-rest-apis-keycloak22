@@ -1,5 +1,5 @@
 # Detailed description and steps for run project found here: 
-[Spring Boot 3 Spring Data GraphQL CRUD](https://jarmx.blogspot.com/2023/05/spring-boot-3-spring-data-graphql-crud.html)
+[Securing GraphQL / REST APIs with OAuth2 Resource Server Spring Security 6.1 & Keycloak 22 & Angular 16](https://jarmx.blogspot.com/2023/07/securing-graphql-rest-apis-with-oauth2.html)
 
 # graphql-rest-apis-keycloak22
 
