@@ -1,0 +1,38 @@
+/* General styles for the dashboard */
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 250px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+
+/* Styles for the active menu item */
+.active {
+  background-color: #e0e0e0;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Optional: Add some basic styling to the main content area */
+/* You can customize this part based on your application's design */
+.main-content {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}

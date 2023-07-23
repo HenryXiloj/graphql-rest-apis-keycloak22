@@ -1,0 +1,30 @@
+<div class="dashboard">
+  <div class="sidebar">
+    <h2>Dashboard Menu</h2>
+    <mat-nav-list>
+      <!-- GraphQL Menu -->
+      <mat-list-item [routerLink]="['/dashboard']" routerLinkActive="active">
+        <mat-icon matListIcon>insert_chart_outlined</mat-icon> GraphQL
+      </mat-list-item>
+      <mat-list>
+        <mat-list-item [routerLink]="['/dashboard/jwt_info']" routerLinkActive="active">
+          <span matLine>JWT Info</span>
+        </mat-list-item>
+      </mat-list>
+
+      <!-- Rest Services Menu -->
+      <mat-list-item [routerLink]="['/dashboard']" routerLinkActive="active">
+        <mat-icon matListIcon>web</mat-icon> Rest Services
+      </mat-list-item>
+      <mat-list>
+        <mat-list-item [routerLink]="['/dashboard/jwt_info_rest']" routerLinkActive="active">
+          <span matLine>JWT Info</span>
+        </mat-list-item>
+        <!-- Add more sub-items for Rest Services here -->
+      </mat-list>
+    </mat-nav-list>
+  </div>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

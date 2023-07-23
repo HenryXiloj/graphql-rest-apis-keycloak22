@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-card-title>Hello {{name}}</mat-card-title>
+    <mat-card-title>
+        JSON Web Tokens
+    </mat-card-title>
+    <mat-card-content>
+        <pre [innerHTML]="jsonData | prettyjson: [true, 3]"></pre>
+    </mat-card-content>
+</mat-card>
